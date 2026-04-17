@@ -1,12 +1,13 @@
+//it is a deployement descripter of a java web application its called web.xml. its help you to configure servlet.it map the url to servlet. it define application settings.
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
-         version="5.0">
+         version="5.0">//the version
 
     <servlet>
         <servlet-name>CartServlet</servlet-name>
-        <servlet-class>com.example.CartServlet</servlet-class>
+        <servlet-class>com.example.CartServlet</servlet-class>//this lines help you to the servlet configuration
     </servlet>
 
-    <servlet-mapping>
+    <servlet-mapping>//its used for url mapping
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/cart</url-pattern>
     </servlet-mapping>
